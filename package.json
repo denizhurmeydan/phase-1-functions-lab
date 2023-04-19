@@ -4,7 +4,8 @@
   "description": "JavaScript Basics Functions Lab for Learn.co",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 5000"
   },
   "repository": {
     "type": "git",
